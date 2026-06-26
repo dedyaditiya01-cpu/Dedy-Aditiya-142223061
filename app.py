@@ -57,7 +57,7 @@ st.markdown("""
 # ── Load data ─────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_excel("data/Survei_kepuasan_mahasiswa__Responses_.xlsx")
+    df = pd.read_excel("Survei_kepuasan_mahasiswa__Responses_.xlsx")
     df.columns = [
         "Timestamp", "Nama", "Kelas", "NIM",
         "Kursi & Meja",
